@@ -1,0 +1,4 @@
+.menu {
+    grid-area: orderMenu;
+    background-color: tomato;
+}

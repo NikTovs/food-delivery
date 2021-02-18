@@ -1,0 +1,4 @@
+.banner {
+    grid-area: banner;
+    background-color: violet;
+}
