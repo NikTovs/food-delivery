@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding-right: 1.5rem;
+    /* grid-area: userData; */
+}
+
+.profilePic {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    /* border: 3px solid royalblue; */
+}
+
+.name {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-right: .5rem;
+}
+
+.userContainer {
+    margin-left: .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: .8rem;
+}
+
+.userStatus {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}

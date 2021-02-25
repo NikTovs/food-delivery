@@ -2,5 +2,21 @@
 
 .App {
      height: 100%;
+     padding-bottom: 100px;
      background: #FFE2BA;
+     display: flex; /* If the mountain will not come to Mohammed, Mohammed will go to the mountain */
+     flex-direction: column;
+     justify-content: center;
+}
+
+@media (min-width: 1500px) {
+     html {
+          font-size: 18px;
+     }
+}
+
+@media (min-width: 1800px) {
+     html {
+          font-size: 19px;
+     }
 }

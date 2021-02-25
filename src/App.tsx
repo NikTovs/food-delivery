@@ -1,12 +1,12 @@
 import { FC } from 'react';
 import './App.css';
 import 'sanitize.css';
-import MainContainer from './MainContainer/MainContainer';
+import ContentWrapper from './components/ContentWrapper/ContentWrapper';
 
 const App: FC = () => {
   return (
     <div className="App">
-      <MainContainer />
+      <ContentWrapper />
     </div>
   );
 }

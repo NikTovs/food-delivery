@@ -1,8 +1,13 @@
 .header {
     grid-area: header;
-    background-color: lightsalmon;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .title {
-    
+    font-size: 2rem;
+    grid-area: title;
+    align-self: flex-start;
 }
