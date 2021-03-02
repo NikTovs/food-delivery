@@ -1,9 +1,17 @@
 
 .container {
     padding: 3rem 2rem 3rem 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
     background-color: whitesmoke;
-    max-height: 80%;
+    min-height: 80%;
     border-radius: 40px;
+}
+
+@media (min-width: 1285px) {
+    
+    .container {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
 }

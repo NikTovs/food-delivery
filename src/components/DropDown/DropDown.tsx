@@ -1,6 +1,8 @@
 import { FC } from 'react';
 import styles from '../DropDown/DropDown.module.css';
-import arrow from '../../../assets/img/arrow.svg';
+import arrow from '../../assets/img/arrow.svg';
+
+import { Link } from "react-router-dom";
 
 const DropDown: FC = () => {
 
@@ -10,9 +12,8 @@ const DropDown: FC = () => {
                 <img src={arrow} alt='no arrow' />
             </button>
             <div className={styles.dropdownContent}>
-                <a href="/">Link 1</a>
-                <a href="/">Link 2</a>
-                <a href="/">Link 3</a>
+                <Link to='/myProfile'><p>My Profile</p></Link>
+                <Link to='/logOut'><p>Log Out</p></Link>
             </div>
         </div>
     )

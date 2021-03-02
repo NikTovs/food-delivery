@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import styles from './UserData.module.css';
-import anonPicture from '../../../assets/img/anonProfilePic.jpg';
+import anonPicture from '../../assets/img/anonProfilePic.jpg';
 import DropDown from '../DropDown/DropDown';
 
 type Props = {

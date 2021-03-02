@@ -1,0 +1,27 @@
+.menu {
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 1300px) {
+    
+    .sections {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}

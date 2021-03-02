@@ -1,11 +1,10 @@
 import { FC, useEffect } from 'react';
-import Header from './Header/Header';
-import { Banner } from './Banner';
+import Header from '../../components/Header/Header';
+import { Banner } from '../../components/Banner';
 import styles from './MainPage.module.css';
-import MenuCategory from './MenuCategory/MenuCategory';
-import OrderMenu from './OrderMenu/OrderMenu';
+import MenuCategory from '../../components/MenuCategory/MenuCategory';
+import OrderMenu from '../../components/OrderMenu/OrderMenu';
 import { userService } from '../../services/UserService';
-// import {FirstComponent, SecondComponent} from './components';
 
 const MainPageView: FC = () => {
 

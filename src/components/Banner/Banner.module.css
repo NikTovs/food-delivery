@@ -1,9 +1,9 @@
 .banner {
     grid-area: banner;
-    background: linear-gradient( rgba(248, 148, 6, .9), rgba(248, 148, 6, .2) ), url(../../../assets/img/bannerBG.jpg);
+    background: linear-gradient( rgba(248, 148, 6, .9), rgba(248, 148, 6, .2) ), url(../../assets/img/bannerBG.jpg);
     padding: .5rem;
     border-radius: 30px;
-    min-height: 10rem;
+    min-height: 8rem;
     position: relative;
     display: flex;
     flex-direction: column;

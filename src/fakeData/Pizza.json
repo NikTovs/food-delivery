@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Chili",
+        "price": "8$",
+        "rate": "4"
+    },
+    {
+        "id": "2",
+        "name": "Not Chili",
+        "price": "8$",
+        "rate": "4"
+    },
+    {
+        "id": "3",
+        "name": "Chili",
+        "price": "8$",
+        "rate": "4"
+    },
+    {
+        "id": "4",
+        "name": "Texas",
+        "price": "2$",
+        "rate": "5"
+    },
+    {
+        "id": "5",
+        "name": "Chili",
+        "price": "12$",
+        "rate": "4"
+    },
+    {
+        "id": "6",
+        "name": "Cheese",
+        "price": "3$",
+        "rate": "1"
+    }
+]

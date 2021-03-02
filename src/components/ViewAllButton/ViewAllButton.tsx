@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import styles from './ViewAllButton.module.css';
-import arrowPath from '../../../assets/img/arrow.svg';
+import arrowPath from '../../assets/img/arrow.svg';
 
 export const ViewAllButton: FC = () => {
 

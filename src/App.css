@@ -9,14 +9,16 @@
      justify-content: center;
 }
 
+
+
 @media (min-width: 1500px) {
      html {
-          font-size: 18px;
+          font-size: 17px;
      }
 }
 
 @media (min-width: 1800px) {
      html {
-          font-size: 19px;
+          font-size: 18px;
      }
 }

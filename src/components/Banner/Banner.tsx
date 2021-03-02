@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import styles from './Banner.module.css'
-import deliverImg from '../../../assets/img/deliver.png';
+import deliverImg from '../../assets/img/deliver.png';
 
 type Props = {
     name: string | null,

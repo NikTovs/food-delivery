@@ -1,6 +1,6 @@
 import { FC, useEffect, useState } from 'react';
 import { Banner } from './Banner';
-import { userService } from '../../../services/UserService';
+import { userService } from '../../services/UserService';
 
 export const BannerContainer: FC = () => {
 

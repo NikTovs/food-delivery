@@ -7,31 +7,10 @@
    "menu menu orderMenu";
 
    gap: 1.5rem;
-
-   grid-template-rows: 4rem 1fr 1fr;
-   grid-template-columns: 1fr 1fr 1fr;
+/* 
+   grid-template-rows: 4rem 1fr 1fr; */
+   /* grid-template-columns: 3fr 3fr 2fr; */
 
    column-gap: 2.7rem;
-   row-gap: 2.5rem;
-}
-
-
-.banner {
-   
-}
-
-.menu {
-  
-}
-
-.menuCategory {
-
-}
-
-.showMenuItems {
-
-}
-
-.orderMenu {
-  
+   row-gap: 2.3rem;
 }

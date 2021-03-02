@@ -13,9 +13,9 @@ const Header: FC<Props> = ({ title }) => {
         <header className={style.header}>
             <h3 className={style.title}>{title}</h3>
             <FoodSearch />
-            <UserData 
-            name='Luke' 
-            profilePicture='https://i.quotev.com/img/q/u/16/1/18/7de1ab8b5c-imag.jpg'
+            <UserData
+                name='Luke'
+                profilePicture='https://i.quotev.com/img/q/u/16/1/18/7de1ab8b5c-imag.jpg'
             />
         </header>
     )
