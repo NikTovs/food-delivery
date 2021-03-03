@@ -6,6 +6,7 @@ import { CategoryComponent } from '../CategoryComponent/CategoryComponent';
 import { menuIcons } from '../../assets/menuIconsIndex';
 
 const MenuCategory: FC = () => {
+    const categoryNames = ['pizza', 'burger', 'coffee', 'taco', 'snack', 'hotdog'];
     return (
         <div className={styles.menu}>
             <div className={styles.header}>
@@ -13,12 +14,10 @@ const MenuCategory: FC = () => {
                 <ViewAllButton />
             </div>
             <div className={styles.sections}>
-                <CategoryComponent ImgPath={menuIcons.pizza} categoryName='pizza'/>
-                <CategoryComponent ImgPath={menuIcons.burger} categoryName='burger'/>
-                <CategoryComponent ImgPath={menuIcons.coffee} categoryName='coffee'/>
-                <CategoryComponent ImgPath={menuIcons.taco} categoryName='taco'/>
-                <CategoryComponent ImgPath={menuIcons.snack} categoryName='snack'/>
-                <CategoryComponent ImgPath={menuIcons.hotdog} categoryName='hotdog'/>
+                {categoryNames.map(category => (
+                    <CategoryComponent ImgPath={menuIcons.category} categoryName={category}/>
+                    )
+                }
             </div>
         </div>
     )
