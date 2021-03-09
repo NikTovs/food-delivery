@@ -1,0 +1,15 @@
+.container {
+    grid-area: userData;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.row {
+    font-size: 3.1rem;
+}

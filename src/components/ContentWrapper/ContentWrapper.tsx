@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import styles from './ContentWrapper.module.css';
 import MainPageView from '../../WebPages/MainPage/MainPageView';
+import { ProfilePage } from '../../WebPages/ProfilePage/ProfilePage';
 
 import {
     BrowserRouter as Router,
@@ -15,7 +16,7 @@ const ContentWrapper: FC = () => {
             <Router>
                 <Switch>
                     <Route exact path='/' component={MainPageView} />
-                    <Route exact path='/myProfile' ><p>My Profile</p></ Route>
+                    <Route exact path='/myProfile' component={ProfilePage} />
                 </Switch>
             </Router>
         </div>
