@@ -5,12 +5,12 @@ import hotdogIcon from './menuIcons/hotdog.svg';
 import snackIcon from './menuIcons/snack.svg';
 import tacoIcon from './menuIcons/taco.svg';
 
-export const menuIcons = {
+export const menuIcons: any = {
     pizza: pizzaIcon,
     burger: burgerIcon,
     coffee: coffeeIcon,
     hotdog: hotdogIcon,
     snack: snackIcon,
     taco: tacoIcon
-}
+} 
 

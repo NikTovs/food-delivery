@@ -14,9 +14,9 @@ const MenuCategory: FC = () => {
                 <ViewAllButton />
             </div>
             <div className={styles.sections}>
-                {categoryNames.map(category => (
-                    <CategoryComponent ImgPath={menuIcons.category} categoryName={category}/>
-                    )
+                {categoryNames.map((category, index) => (
+                    <CategoryComponent ImgPath={menuIcons[category]} categoryName={category} key={index} />                  
+                    ))
                 }
             </div>
         </div>
